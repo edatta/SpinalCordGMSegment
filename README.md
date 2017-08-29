@@ -15,7 +15,7 @@ Márquez-Neila, P., Baumela, L., Álvarez, L., "A morphological approach to curv
 
 The spinal cord gray matter is segmented in 6 steps:
 
-![Segmentation_steps](Segmentation_steps.jpg)
+![Segmentation_steps](readme_jpgs/Segmentation_steps.jpg)
 
 ## Running the demo
 
@@ -27,7 +27,7 @@ In the Sample folder, there are two files:
 * Sample.nii.gz is a 2D PSIR acquisition of the C2/C3 level of the spinal cord in a healthy control.
 * Sample.roi is an file created by the software JIM that specifies the segmentation of the spinal cord.
 
-![sample_files](JIM.jpg)
+![sample_files](readme_jpgs/JIM.jpg)
 
 To run the demo, enter the command:
 ```
@@ -50,5 +50,5 @@ There will be eight outputs added to the Sample folder:
 #### Final Output of Segmented Gray Matter
 * Sample_autoseg_gm.nii.gz is the final output of the nifti file of the grey matter segmentation in the zoomed space
 
-![Final_output](final_gm_segmentation.jpg)
+![Final_output](readme_jpgs/final_gm_segmentation.jpg)
 
