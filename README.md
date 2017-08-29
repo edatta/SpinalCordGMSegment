@@ -15,7 +15,7 @@ Márquez-Neila, P., Baumela, L., Álvarez, L., "A morphological approach to curv
 
 The spinal cord gray matter is segmented in 6 steps:
 
-![method](https://www.dropbox.com/s/4r9ua00pgxeg16d/Segmentation_steps.jpg?dl=0)
+![method](https://www.dropbox.com/s/4r9ua00pgxeg16d/Segmentation_steps.jpg)
 
 ## Running the demo
 
@@ -27,7 +27,7 @@ In the Sample folder, there are two files:
 Sample.nii.gz is a 2D PSIR acquisition of the C2/C3 level of the spinal cord in a healthy control.
 Sample.roi is an file created by the software JIM that specifies the segmentation of the spinal cord.
 
-![sample_files](https://www.dropbox.com/s/vv3tgkapbo0f20h/JIM.jpg?dl=0)
+![sample_files](https://www.dropbox.com/s/vv3tgkapbo0f20h/JIM.jpg)
 
 To run the demo, enter the command:
 ```
@@ -38,17 +38,17 @@ gm_segmentation.py Sample
 There will be eight outputs added to the Sample folder:
 
 #### Zoomed Files
-Sample_zoomed.nii.gz is a nifti file that has been zoomed and cropped around the spinal cord segmentation from the JIM roi file
-Sample_zoomed_cord_mask.nii.gz is a nifti file of the JIM cord roi in the zoomed space
+* Sample_zoomed.nii.gz is a nifti file that has been zoomed and cropped around the spinal cord segmentation from the JIM roi file
+* Sample_zoomed_cord_mask.nii.gz is a nifti file of the JIM cord roi in the zoomed space
 #### Registration of Cord Template to Subject Cord
-Sample_template_reg_to_subject.nii.gz is a nifti file of the cord template after it has been registered to the subject cord mask
-Sample_Affine.txt is a text file of the affine transformation from the cord template to the subject cord mask
-Sample_Warp.nii.gz is the warp transformation from the cord template to the subject cord mask
-Sample_InverseWarp.nii.gz is the inverse transformation from the subject cord to the cord template mask
+* Sample_template_reg_to_subject.nii.gz is a nifti file of the cord template after it has been registered to the subject cord mask
+* Sample_Affine.txt is a text file of the affine transformation from the cord template to the subject cord mask
+* Sample_Warp.nii.gz is the warp transformation from the cord template to the subject cord mask
+* Sample_InverseWarp.nii.gz is the inverse transformation from the subject cord to the cord template mask
 #### Registration applied to Grey Matter Template
-Sample_prior.nii.gz is the grey matter template transformed to the subject cord space, which acts as a prior guess
+* Sample_prior.nii.gz is the grey matter template transformed to the subject cord space, which acts as a prior guess
 #### Final Output of Segmented Gray Matter
-Sample_autoseg_gm.nii.gz is the final output of the nifti file of the grey matter segmentation in the zoomed space
+* Sample_autoseg_gm.nii.gz is the final output of the nifti file of the grey matter segmentation in the zoomed space
 
-![final_output](https://www.dropbox.com/s/ff8e3s4cc2giifw/final_gm_segmentation.jpg?dl=0)
+![final_output](https://www.dropbox.com/s/ff8e3s4cc2giifw/final_gm_segmentation.jpg)
 
