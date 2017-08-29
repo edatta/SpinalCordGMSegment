@@ -15,17 +15,17 @@ Márquez-Neila, P., Baumela, L., Álvarez, L., "A morphological approach to curv
 
 The spinal cord gray matter is segmented in 6 steps:
 
-![method](https://www.dropbox.com/s/4r9ua00pgxeg16d/Segmentation_steps.jpg)
+![Segmentation_steps](https://www.dropbox.com/s/4r9ua00pgxeg16d/Segmentation_steps.jpg)
 
 ## Running the demo
 
 In the Templates folder, there are two files:
-control_template.nii.gz is a template of cord masks created from 20 control subjects
-gm_mask_template.nii.gz is a template of grey matter masks created from 20 control subjects
+* control_template.nii.gz is a template of cord masks created from 20 control subjects
+* gm_mask_template.nii.gz is a template of grey matter masks created from 20 control subjects
 
 In the Sample folder, there are two files:
-Sample.nii.gz is a 2D PSIR acquisition of the C2/C3 level of the spinal cord in a healthy control.
-Sample.roi is an file created by the software JIM that specifies the segmentation of the spinal cord.
+* Sample.nii.gz is a 2D PSIR acquisition of the C2/C3 level of the spinal cord in a healthy control.
+* Sample.roi is an file created by the software JIM that specifies the segmentation of the spinal cord.
 
 ![sample_files](https://www.dropbox.com/s/vv3tgkapbo0f20h/JIM.jpg)
 
@@ -50,5 +50,5 @@ There will be eight outputs added to the Sample folder:
 #### Final Output of Segmented Gray Matter
 * Sample_autoseg_gm.nii.gz is the final output of the nifti file of the grey matter segmentation in the zoomed space
 
-![final_output](https://www.dropbox.com/s/ff8e3s4cc2giifw/final_gm_segmentation.jpg)
+![Final_output](https://www.dropbox.com/s/ff8e3s4cc2giifw/final_gm_segmentation.jpg)
 
