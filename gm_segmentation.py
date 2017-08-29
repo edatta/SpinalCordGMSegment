@@ -20,8 +20,8 @@ import numpy as np
 import argparse
 
 #User Defined
-template_image = 'control_template.nii.gz'
-gm_template_image = 'gm_mask_template.nii.gz'
+template_image = 'Templates/control_template.nii.gz'
+gm_template_image = 'Templates/gm_mask_template.nii.gz'
 resolution_x = .078125
 resolution_y = .078125
 
