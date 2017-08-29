@@ -34,7 +34,7 @@ To run the demo, enter the command:
 gm_segmentation.py Sample
 ```
 
-### Outputs
+## Outputs
 There will be eight outputs added to the Sample folder:
 
 #### Zoomed Files
